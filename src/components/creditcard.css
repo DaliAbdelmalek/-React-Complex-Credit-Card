@@ -1,0 +1,99 @@
+body{
+    color: white;
+    background-color: rgb(9, 9, 24);
+}
+.cart{
+    background-image: url('./images/37145cda8dd62aeeb2bdc1242549b76c.png');
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    height: 620px;
+    margin: 10px 150px;
+    border-radius: 50px;
+    border: 2px solid white
+}
+.container{
+    display:flex; 
+}
+.contenue{
+    display: flex;
+    padding-left: 85px
+}
+.valid{
+    display: flex;
+    padding-left: 80px;
+}
+.info{
+    display: flex;
+    width: 300px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 28px;
+    padding-top: 40px;
+}
+.part1{
+    display: flex;
+    flex-direction: column
+}
+
+
+.titre{
+    text-align: end;
+    font-size: 80px;
+    font-weight: 800;
+    line-height: 28px;
+    margin-right: 100px;
+}
+.pus{
+    padding: 0 70px 20px;
+}
+.pus img{
+    width: 160px;
+}
+.numero{
+    font-size: 50px;
+    font-weight: 50;
+    margin-left: 60px;
+    color: rgb(236, 222, 138);
+    background: rgba(136, 121, 42, 0.6);
+    width: 570px;
+    margin-left: 100px
+}
+.numero span {
+    padding-left: 70px
+}
+.visa{
+    padding: 40px 180px;
+}
+.visa img{
+    width: 150px
+}
+.thru{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    font-weight: 400;
+    padding-right: 20px;
+    padding-top: 25px
+}
+.month{
+    font-size: 20px;
+    font-weight: 500;
+}
+.month p{
+    padding-bottom: 0;
+    margin: 0;
+}
+.month span{
+    padding-left: 10px;
+    font-size: 40px;
+    padding-right: 30px;
+}
+.inputs{
+    display: flex;
+    justify-content: space-between;
+}
+.reset{
+    display: flex;
+    justify-content: flex-end;
+    margin: -21px -100px;
+}
